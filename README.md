@@ -1,8 +1,9 @@
 # d-590-ssbm-summit
 
-I'm creating a web app that analyzes the performance of gamers who play Super Smash Bros Melee at Smash Summit, a series of national invitational tournaments. I'm using data from https://www.kaggle.com/datasets/thomasdubail/super-smash-bros-database. I am specifically only using data related to Super Smash Bros Melee, and not Ultimate. 
+I created a web app that analyzes the performance of gamers who play Super Smash Bros Melee at Smash Summit, a national invitational tournament series. I obtained my raw data from https://www.kaggle.com/datasets/thomasdubail/super-smash-bros-database, but eventually filtered and transformed it until it became "ss_players.csv". 
 
-I plan on creating the following functions for my web app: 
-- the ability to search/filter/sort results from specific Smash Summits, as well as from the players that participated in them
-- data visualization for summary statistics of interest (e.g. a player's win rate over time, etc.)
-- a model that predicts a player's placement in a specific Smash Summit based on their performance at previous tournaments, etc. 
+My web app has the following functions: 
+- the ability to search/filter/sort data from specific Smash Summits, as well as from the players that participated in them
+- data visualization for statistics of interest, e.g. a histogram and scatter plot 
+- a tool that groups players into a specified number of clusters 
+- a decision tree that predicts whether a player will place in the top 8 at a specific Smash Summit
